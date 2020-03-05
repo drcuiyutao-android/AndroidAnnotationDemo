@@ -19,11 +19,11 @@
 
 ## demo项目介绍：
 
-![avatar](../pic/modules.png)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/modules.png?raw=true)
 
-![avatar](../pic/app_structure.png)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app_structure.png?raw=true)
 
-![avatar](../pic/app2_structure.jpg)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app2_structure.jpg?raw=true)
 
    如图所示，项目分为app，app2，lib-base基础库，lib-third三方库(向lib-base中注入代码)
    其中，app引用lib-base库和lib-third三方库，app2作为对照组，只引用lib-base库
@@ -156,11 +156,11 @@
 
 app项目：
 
-![avatar](../pic/app.jpg)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app.jpg?raw=true)
 
 app2项目：
 
-![avatar](../pic/app2.jpg)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app2.jpg?raw=true)
 
 通过app与app2项目对比看到，app项目中MainActivity中成员变量和方法内容都被注入方式修改了，app2项目未引入lib-third模块，即未使用注入框架，其MainActivity中成员变量值均为默认值，  
 lib-third库作为额外的第三方库，可以很方便的拿掉或者引入，这样就轻松的实现了模块间的解耦，不影响app和app2都直接引用lib-base库，也不需要对lib-base库做出修改。
@@ -169,15 +169,15 @@ app2项目如果也想实现app项目中效果，在不使用注解库的情况�
 
 ### demo下载体验：
 
-[app使用注解项目](http://git.drcuiyutao.com/daichuanhao/android-annotation-demo/raw/master/apks/app-release.apk)
+[app使用注解项目](https://raw.githubusercontent.com/drcuiyutao-android/AndroidAnnotationDemo/master/apks/app-release.apk)
 
-[app2未使用注解项目](http://git.drcuiyutao.com/daichuanhao/android-annotation-demo/raw/master/apks/app2-release.apk)
+[app2未使用注解项目](https://raw.githubusercontent.com/drcuiyutao-android/AndroidAnnotationDemo/master/apks/app2-release.apk)
 
 
 
 ### Insert注解说明
 
-![avatar](../pic/insert_1.png)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/insert_1.png?raw=true)
 
 
 ### 注意：
