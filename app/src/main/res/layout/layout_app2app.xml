@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test insert method:  " />
+
+        <TextView
+            android:id="@+id/text_app2app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="failed !" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test insert member field: " />
+
+        <TextView
+            android:id="@+id/text2_app2app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="failed !" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test insert initialized field:  " />
+
+        <TextView
+            android:id="@+id/text3_app2app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="failed !" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test insert boolean member field:  " />
+
+
+        <TextView
+            android:id="@+id/test_boolean_app2app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="failed !" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test insert method:  " />
+
+
+        <TextView
+            android:id="@+id/test_method_app2app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="failed !" />
+
+    </LinearLayout>
+
+</LinearLayout>

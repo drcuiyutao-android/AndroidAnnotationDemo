@@ -1,0 +1,23 @@
+apply plugin: "groovy"
+apply plugin: "maven"
+
+dependencies {
+    compile "com.android.tools.build:gradle:$android_tools_build_gradle_version"
+    compile gradleApi()
+    compile localGroovy()
+    compile "com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api"
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "commons-io:commons-io:2.6"
+    compile "com.drcuiyutao:lib-annotation:$lib_annotation_version"
+}
+
+group = "com.drcuiyutao"
+version = "$lib_annotation_gradle_plugin_version"
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri($maven_url))
+        }
+    }
+}
