@@ -39,8 +39,8 @@
     
     buildscript {
         dependencies {
-            classpath "org.javassist:javassist:$javassist_version"
-            classpath "com.drcuiyutao:lib-annotation-gradle-plugin:$lib_annotation_gradle_plugin_version"
+            classpath "org.javassist:javassist:$javassist_version" //$javassist_version为javassist版本号
+            classpath "com.drcuiyutao:lib-annotation-gradle-plugin:$lib_annotation_gradle_plugin_version"//lib_annotation_gradle_plugin_version为最新注解库插件版本号
         }
     }
     
@@ -59,12 +59,11 @@
     
     buildscript {
      repositories {
-            maven { url uri("$maven_url") }  //maven_url为注解库的maven仓库地址
             jcenter()
             google()
         }
         dependencies {
-            classpath "org.javassist:javassist:$javassist_version"
+            classpath "org.javassist:javassist:$javassist_version" //依赖javassist源码
             classpath "com.drcuiyutao:lib-annotation-gradle-plugin:$lib_annotation_gradle_plugin_version" //lib_annotation_gradle_plugin_version为最新注解库插件版本号
         }
     }
@@ -76,15 +75,6 @@
     }
     
     
-    // 项目根目录的build.gradle
-    allprojects {
-        repositories {
-            mavenCentral()
-            jcenter()
-            google()
-            maven { url uri("$maven_url") }
-        }
-    }
 ```
 
 ### 2. 添加依赖库和插件库成功后，在要注入代码的函数或变量上添加Insert注解。

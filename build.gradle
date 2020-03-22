@@ -6,10 +6,6 @@ buildscript {
     ext.lib_annotation_gradle_plugin_version = '0.1.0'
     ext.android_tools_build_gradle_version = '3.3.2'
 
-    //todo 等上传maven后，需替换此地址为最新mave仓库项目地址
-    ext.maven_url_release = ''
-    ext.maven_url_snapshot = ''
-
     repositories {
         google()
         jcenter()
@@ -27,7 +23,6 @@ allprojects {
         mavenCentral()
         jcenter()
         google()
-        maven { url uri("$maven_url_release") }
     }
 }
 

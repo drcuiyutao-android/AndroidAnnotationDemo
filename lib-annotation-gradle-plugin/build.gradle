@@ -6,6 +6,7 @@ dependencies {
     compile gradleApi()
     compile localGroovy()
     compile "com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api"
+    compile "org.javassist:javassist:$javassist_version"
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "commons-io:commons-io:2.6"
     compile "com.drcuiyutao:lib-annotation:$lib_annotation_version"

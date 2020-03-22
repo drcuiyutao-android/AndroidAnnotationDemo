@@ -3,8 +3,6 @@ apply plugin: "lib-annotation-gradle-plugin"
 
 buildscript {
     repositories {
-        maven { url "$maven_url_release" }
-        maven { url "$maven_url_snapshot" }
         jcenter()
         google()
     }
