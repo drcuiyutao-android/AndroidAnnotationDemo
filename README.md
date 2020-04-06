@@ -211,6 +211,8 @@ public class StatisticUtil {
 
 ### demo运行截图(测试机型：小米6)
 
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app_home.jpg?raw=true)
+
 app项目：
 
     无埋点：
@@ -220,6 +222,11 @@ app项目：
     代码注入：
 
 ![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app.jpg?raw=true)
+
+    异常捕获：
+
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/test_try_catch?raw=true)
+
 
 app2项目：
 

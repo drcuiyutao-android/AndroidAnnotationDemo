@@ -17,6 +17,13 @@
         android:layout_marginTop="30dp"
         android:text="测试无埋点"/>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="测试异常捕获"/>
+
 
 
 </LinearLayout>

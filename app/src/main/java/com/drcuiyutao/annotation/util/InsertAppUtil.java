@@ -1,8 +1,10 @@
 package com.drcuiyutao.annotation.util;
 
+import android.os.Bundle;
 import android.util.Log;
 
 import com.drcuiyutao.annotation.demo.TestInsertActivity;
+import com.drcuiyutao.annotation.demo.TestTryCatchActivity;
 import com.drcuiyutao.lib.annotation.Insert;
 
 /**
@@ -29,5 +31,10 @@ public class InsertAppUtil {
     public static String testInsertMethod() {
         Log.i(InsertAppUtil.class.getSimpleName(), "InsertUtil: testInsertMethod()");
         return "success";
+    }
+
+    @Insert(target = TestTryCatchActivity.class, addCatch = "{ $e.printStackTrace(); return; }")
+    public static void tryCatchMethod() {
+        Log.i(InsertAppUtil.class.getSimpleName(), "tryCatchMethod() add TRY CATCH");
     }
 }
