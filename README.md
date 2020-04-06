@@ -211,11 +211,13 @@ public class StatisticUtil {
 
 ### demo运行截图(测试机型：小米6)
 
-无埋点测试：
+app项目：
+
+    无埋点：
+
 ![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/test_statistic.png?raw=true)
 
-
-app项目：
+    代码注入：
 
 ![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/app.jpg?raw=true)
 
