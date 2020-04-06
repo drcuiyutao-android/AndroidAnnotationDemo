@@ -225,7 +225,7 @@ app项目：
 
     异常捕获：
 
-![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/test_try_catch?raw=true)
+![avatar](https://github.com/drcuiyutao-android/AndroidAnnotationDemo/blob/master/pic/test_try_catch.png?raw=true)
 
 
 app2项目：
